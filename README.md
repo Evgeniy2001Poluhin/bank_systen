@@ -248,19 +248,19 @@ FinanceGolang - это бэкэнд банковского приложения,
 
 ## 📁 Структура проекта
 .
-├── src/                  # Исходный код Go-приложения
-│   ├── config/           # Конфигурация приложения
-│   ├── controller/       # HTTP-контроллеры
-│   ├── database/         # Инициализация и миграции базы данных
-│   ├── dto/              # Объекты передачи данных (Data Transfer Objects)
-│   ├── model/            # Модели данных (сущности ORM)
-│   ├── repository/       # Слой доступа к данным
-│   ├── security/         # Функции аутентификации и авторизации
-│   └── service/          # Бизнес-логика
-├── tests/                # Тесты
-│   ├── client/           # Тестовый клиент на Python
-│   └── test/             # Интеграционные тесты
-├── .template.env         # Шаблон файла окружения
-├── docker-compose.yml    # Конфигурация Docker Compose
-├── Dockerfile            # Инструкции по сборке Docker-образа
-└── README.md             # Документация проекта
+├── src/
+│   ├── config/            # Конфигурация приложения
+│   ├── controller/        # HTTP контроллеры
+│   ├── database/          # Конфигурация и миграции БД
+│   ├── dto/               # Data Transfer Objects
+│   ├── model/             # Модели данных
+│   ├── repository/        # Слой доступа к данным
+│   ├── security/          # Аутентификация и авторизация
+│   └── service/           # Бизнес-логика
+├── tests/
+│   ├── client/            # Тестовый клиент на Python
+│   └── test/              # Интеграционные тесты
+├── .template.env          # Env шаблон
+├── docker-compose.yml     # Docker конфигурация
+├── Dockerfile            # Сборка приложения
+└── README.md             # Документация
